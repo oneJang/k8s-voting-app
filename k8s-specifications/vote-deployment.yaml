@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: local-registry:30500/vote:1.0
+      - image: local-registry.com:30500/vote:1.0
         name: vote
         ports:
         - containerPort: 80

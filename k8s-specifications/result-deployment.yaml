@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: local-registry:30500/result:1.0
+      - image: local-registry.com:30500/result:1.0
         name: result
         ports:
         - containerPort: 80
