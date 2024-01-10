@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: local-registry.com:30500/worker:1.0
+      - image: dockersamples/examplevotingapp_worker
         name: worker
